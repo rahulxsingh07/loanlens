@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>LoanLens – Bank Loan Analytics</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Interactive bank loan portfolio analytics: KPIs, good vs bad loans, US state map, and risk by grade and purpose.">
+<meta name="theme-color" content="#0f0f11">
+<meta name="color-scheme" content="light dark">
+<meta property="og:title" content="LoanLens – Bank Loan Analytics">
+<meta property="og:description" content="Interactive bank loan portfolio analytics built from 38,576 loans.">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<!--CSS-->
+</head>
+<body>
+<div class="blob blob1"></div><div class="blob blob2"></div>
+<aside class="sb"><div class="lg"><i>🏦</i>LoanLens</div><small>Analytics</small>
+<a data-v="overview" href="#overview">Overview</a><a data-v="portfolio" href="#portfolio">Portfolio</a><a data-v="risk" href="#risk">Risk analysis</a></aside>
+<main>
+<div class="top"><h1>Bank Loan Analytics <span class="chip">2021 portfolio</span></h1><span class="sub" id="cnt" style="margin:0"></span></div>
+<div class="tabs"><a data-v="overview" href="#overview">Overview</a><a data-v="portfolio" href="#portfolio">Portfolio</a><a data-v="risk" href="#risk">Risk analysis</a></div>
+<div class="flt"><select id="fp" aria-label="Purpose"></select><select id="fg" aria-label="Grade"></select><button id="rs">Reset filters</button></div>
+<div id="app"></div></main>
+<noscript><p style="padding:24px;font-family:sans-serif">LoanLens needs JavaScript to draw the dashboard.</p></noscript>
+<!--JS-->
+</body>
+</html>

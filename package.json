@@ -1,0 +1,20 @@
+{
+  "name": "loanlens",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LoanLens - interactive bank loan analytics dashboard (static site)",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/serve.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs"
+  },
+  "engines": { "node": ">=18" },
+  "devDependencies": {
+    "@fontsource-variable/inter": "5.1.0",
+    "esbuild": "0.24.0",
+    "gsap": "3.12.5",
+    "motion": "11.11.13",
+    "tailwindcss": "3.4.17",
+    "yaml": "2.6.0"
+  }
+}
