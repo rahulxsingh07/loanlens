@@ -29,3 +29,9 @@ git add -A && git commit -m "Update data" && git push   # Render redeploys autom
 ## Deploy on Render
 See the step-by-step guide: connect the GitHub repo in Render as a **Blueprint** (uses `render.yaml`)
 or as a **Static Site** with Build Command `npm ci && npm run build` and Publish Directory `dist`.
+
+<img width="1905" height="932" alt="Screenshot 2026-11-12 121518" src="https://github.com/user-attachments/assets/4cb987a7-3ec2-4dae-827d-f06d027305c2" />
+
+<img width="1901" height="927" alt="Screenshot 2026-11-12 121535" src="https://github.com/user-attachments/assets/ebaefcaa-7e26-4045-b5da-ad2a21d45f51" />
+
+
